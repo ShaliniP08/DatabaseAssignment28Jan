@@ -1,4 +1,4 @@
-
+use WFA3DotNet
 --Q3 Creation of Table with constraints 
 
 --1.Create a table Product as per the following specifications. 
@@ -75,8 +75,9 @@ UPDATE Product
 SET SetQty=10 
 WHERE (MarginCode ='A' AND SetQty=1)
 
-
-
+insert into Product values('Tutty Frutie',1,560.90,'D')
+select * from product
+delete from Product where ProductId=121
 
 
 
